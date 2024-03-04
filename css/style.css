@@ -404,11 +404,19 @@ img {
 }
 
 /*==================== ABOUT ====================*/
+/* .about__img{
+  width: 200px;
+  border-radius: 0.5rem;
+  justify-self: center;
+  align-self: center;
+} */
 .about__img{
   width: 200px;
   border-radius: 0.5rem;
   justify-self: center;
   align-self: center;
+  border-radius: 20%;
+  background-color: var(--first-color);
 }
 
 .about__description{
@@ -598,7 +606,7 @@ img {
 .qualification__subtitle{
   display: inline-block;
   font-size: var(--small-font-size);
-  margin-bottom: var(--mb-1);
+  /* margin-bottom: var(--mb-1); */
 }
 
 .qualification__calendar{
@@ -912,6 +920,12 @@ img {
   border: none;
   outline: none;
   padding: 0.25rem 0.5rem 0.5rem 0;
+  resize: none;
+}
+
+button{
+  border: none;
+  border-radius: 10px;
 }
 
 /*==================== FOOTER ====================*/

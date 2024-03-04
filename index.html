@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!--==================== FAVICON ====================-->
+    <link rel="icon" type="image/png" href="./assets/img/me_about.png">
+
     <!--==================== UNICONS ====================-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 
@@ -46,8 +49,8 @@
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#portfolio" class="nav__link">
-                            <i class="uil uil-scenery nav__icon"></i>Portfolio
+                        <a href="#projects" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i>Projects
                         </a>
                     </li>
                     <li class="nav__item">
@@ -113,7 +116,7 @@
                     </div>
                     <div class="home__data">
                         <h1 class="home__title">Hello! I'm Sudhanshu</h1>
-                        <h3 class="home__subtitle">Full Stack Developer || AI & Finance Enthusiast</h3>
+                        <h3 class="home__subtitle">Full Stack Web Developer || AI & Finance Enthusiast</h3>
                         <p class="home__description">
                             Codes in Java and currently learning MERN. Aspiring to innovate and achieve excellence in technology.
                         </p>
@@ -137,7 +140,7 @@
             <h2 class="section__title">About me</h2>
             <span class="section__subtitle">My Introduction</span>
             <div class="about__container container grid">
-                <img src="assets/img/about2.jpg" alt="about-img" class="about__img">
+                <img src="assets/img/home.png" alt="about-img" class="about__img">
                 <div class="about__data">
                     <p class="about__description" >Hello! I'm Sudhanshu Gupta, a B.Tech student at RCC Institute of Information Technology. I code in Java, Python, and C, and I'm learning MERN. I am disciplined, punctual, attentive, helpful, polite, and hardworking. My goal is to explore and implement new technologies to enhance efficiency and accessibility, aiming for unprecedented achievements in my field.</p>
                     <!-- <div class="about__info">
@@ -602,8 +605,8 @@
         </section> -->
 
         <!--==================== PORTFOLIO ====================-->
-        <section class="portfolio section" id="portfolio">
-            <h2 class="section__title">Portfolio</h2>
+        <section class="portfolio section" id="projects">
+            <h2 class="section__title">Projects</h2>
             <span class="section__subtitle">Most recent Works</span>
 
             <div class="portfolio__container container swiper-container">
@@ -811,32 +814,40 @@
                     </div>
                 </div>
 
-                <form action="" class="contact__form grid">
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact__form grid">
+                    <!-- Replace with your Access Key -->
+                    <input type="hidden" name="access_key" value="69e30fb7-fa9f-442f-9c0b-a1c0f1610f40">
                     <div class="contact__inputs grid">
                         <div class="contact__content">
                             <label for="" class="contact__label">Name</label>
-                            <input type="text" class="contact__input">
+                            <input type="text" name="name" class="contact__input">
                         </div>
                         <div class="contact__content">
                             <label for="" class="contact__label">Email</label>
-                            <input type="email" class="contact__input">
+                            <input type="email" name="email" class="contact__input">
                         </div>
                     </div>
 
                     <div class="contact__content">
                         <label for="" class="contact__label">Project</label>
-                        <input type="text" class="contact__input">
+                        <input type="text" name="project" class="contact__input">
                     </div>
                     <div class="contact__content">
                         <label for="" class="contact__label">Message</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        <textarea name="message" id="" cols="0" rows="7" class="contact__input"></textarea>
                     </div>
 
                     <div>
-                        <a href="#" class="button button--flex">
+                        <button type="submit">
+                            <a class="button button--flex">
+                                Send Message
+                                <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </button>
+                        <!-- <a class="button button--flex">
                             Send Message
                             <i class="uil uil-message button__icon"></i>
-                        </a>
+                        </a> -->
                     </div>
                 </form>
             </div>
