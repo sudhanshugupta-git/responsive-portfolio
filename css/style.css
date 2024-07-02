@@ -576,9 +576,6 @@ img {
   justify-content: space-between;
 }
 
-.experience__subtitle i{
-  font-size: var(--small-font-size);
-}
 .experience__subtitle p{
   font-size: var(--smaller-font-size);
 }
