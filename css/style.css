@@ -528,8 +528,11 @@ img {
 .skills__node{
   width: 50%;
 }
+.skills__express{
+  width: 60%;
+}
 .skills__firebase{
-  width:60%;
+  width:55%;
 }
 .skills__php{
   width: 30%;
@@ -580,6 +583,9 @@ img {
   font-size: var(--smaller-font-size);
 }
 
+.container{
+  margin-bottom: 30px;
+}
 .experience__content ul {
   list-style-type: disc; 
   margin-left: 2rem; 
